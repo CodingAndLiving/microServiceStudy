@@ -13,6 +13,7 @@
         <module>microServiceProviderDemo</module>
         <module>springBootAdminServer</module>
         <module>microServiceComsumerRibbon</module>
+        <module>microServiceComsumerFeign</module>
     </modules>
     <packaging>pom</packaging>
 

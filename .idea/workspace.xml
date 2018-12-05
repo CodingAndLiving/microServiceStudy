@@ -9,6 +9,7 @@
     <ignored path="$PROJECT_DIR$/microServiceProviderDemo/target/" />
     <ignored path="$PROJECT_DIR$/springBootAdminServer/target/" />
     <ignored path="$PROJECT_DIR$/microServiceComsumerRibbon/target/" />
+    <ignored path="$PROJECT_DIR$/microServiceComsumerFeign/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,40 +35,40 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="445" />
-          <entry key="txt" value="346" />
-          <entry key="xml" value="228" />
-          <entry key="yml" value="374" />
+          <entry key="java" value="552" />
+          <entry key="txt" value="430" />
+          <entry key="xml" value="231" />
+          <entry key="yml" value="389" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="445" />
-          <entry key="PLAIN_TEXT" value="346" />
-          <entry key="XML" value="228" />
-          <entry key="YAML" value="374" />
+          <entry key="JAVA" value="552" />
+          <entry key="PLAIN_TEXT" value="430" />
+          <entry key="XML" value="231" />
+          <entry key="YAML" value="389" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="5" />
           <entry key="html" value="3" />
-          <entry key="java" value="33" />
+          <entry key="java" value="39" />
           <entry key="js" value="1" />
-          <entry key="txt" value="7" />
-          <entry key="xml" value="30" />
-          <entry key="yml" value="45" />
+          <entry key="txt" value="9" />
+          <entry key="xml" value="33" />
+          <entry key="yml" value="48" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="5" />
           <entry key="HTML" value="3" />
-          <entry key="JAVA" value="33" />
+          <entry key="JAVA" value="39" />
           <entry key="JavaScript" value="1" />
-          <entry key="PLAIN_TEXT" value="7" />
-          <entry key="XML" value="30" />
-          <entry key="YAML" value="45" />
+          <entry key="PLAIN_TEXT" value="9" />
+          <entry key="XML" value="33" />
+          <entry key="YAML" value="48" />
         </counts>
       </usages-collector>
     </session>
@@ -75,19 +76,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microServiceDiscoveryEurekaHA/src/main/resources/application-peer1.yml">
+        <entry file="file://$PROJECT_DIR$/microServiceComsumerRibbon/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="756">
-              <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+            <state relative-caret-position="84">
+              <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microServiceDiscoveryEurekaHA/src/main/resources/application-peer3.yml">
+        <entry file="file://$PROJECT_DIR$/microServiceComsumerFeign/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+            <state relative-caret-position="112">
+              <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -97,21 +98,43 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="420">
               <caret line="26" selection-start-line="26" selection-end-line="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microServiceComsumerFeign/src/main/java/feign/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="317">
+              <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
               <folding>
-                <element signature="e#497#498#0" expanded="true" />
-                <element signature="e#538#539#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microServiceComsumerRibbon/src/main/java/comsumer/DemoService.java">
+        <entry file="file://$PROJECT_DIR$/microServiceComsumerFeign/src/main/java/feign/FeignClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+            <state relative-caret-position="112">
+              <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microServiceComsumerFeign/src/main/java/feign/FeignConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="12" column="69" lean-forward="true" selection-start-line="12" selection-start-column="69" selection-end-line="12" selection-end-column="69" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#87#88#0" expanded="true" />
+                <element signature="e#165#166#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -120,12 +143,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/microServiceComsumerRibbon/src/main/java/comsumer/DemoController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+            <state relative-caret-position="252">
+              <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#405#406#0" expanded="true" />
+                <element signature="e#351#352#0" expanded="true" />
+                <element signature="e#416#417#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microServiceComsumerFeign/src/main/java/feign/DemoController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="14" column="71" selection-start-line="14" selection-start-column="71" selection-end-line="14" selection-end-column="71" />
+              <folding>
+                <element signature="e#348#349#0" expanded="true" />
+                <element signature="e#404#405#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/microServiceComsumerFeign/doc/readme.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="3" column="2" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -133,47 +179,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/microServiceProviderDemo/src/main/resources/application-demo1.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microServiceProviderDemo/src/main/resources/application-demo2.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microServiceComsumerRibbon/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microServiceProviderDemo/src/main/java/provider/demo/DemoController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/microServiceComsumerRibbon/doc/readme.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
-              <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+            <state relative-caret-position="168">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -183,6 +190,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -228,6 +236,14 @@
         <option value="$PROJECT_DIR$/microServiceProviderDemo/src/main/resources/application-demo2.yml" />
         <option value="$PROJECT_DIR$/microServiceProviderDemo/src/main/java/provider/demo/DemoController.java" />
         <option value="$PROJECT_DIR$/microServiceComsumerRibbon/doc/readme.txt" />
+        <option value="$PROJECT_DIR$/microServiceProviderDemo/doc/readme.txt" />
+        <option value="$PROJECT_DIR$/microServiceComsumerFeign/pom.xml" />
+        <option value="$PROJECT_DIR$/microServiceComsumerFeign/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microServiceComsumerFeign/src/main/java/feign/Application.java" />
+        <option value="$PROJECT_DIR$/microServiceComsumerFeign/src/main/java/feign/FeignConfig.java" />
+        <option value="$PROJECT_DIR$/microServiceComsumerFeign/src/main/java/feign/DemoController.java" />
+        <option value="$PROJECT_DIR$/microServiceComsumerFeign/src/main/java/feign/FeignClient.java" />
+        <option value="$PROJECT_DIR$/microServiceComsumerFeign/doc/readme.txt" />
       </list>
     </option>
   </component>
@@ -254,6 +270,20 @@
   <component name="MavenProjectNavigator">
     <treeState>
       <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="micro-service-comsumer-feign" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="micro-service-comsumer-feign" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="micro-service-comsumer-feign" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="springcloud-microservice-study" type="9519ce18:MavenProjectsStructure$ProjectNode" />
@@ -325,13 +355,56 @@
             <path>
               <item name="springCloudMicroServiceStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="springCloudMicroServiceStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="microServiceComsumerRibbon" type="462c0819:PsiDirectoryNode" />
+              <item name="microServiceComsumerFeign" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloudMicroServiceStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloudMicroServiceStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="microServiceComsumerFeign" type="462c0819:PsiDirectoryNode" />
+              <item name="doc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloudMicroServiceStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloudMicroServiceStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="microServiceComsumerFeign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloudMicroServiceStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloudMicroServiceStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="microServiceComsumerFeign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloudMicroServiceStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloudMicroServiceStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="microServiceComsumerFeign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloudMicroServiceStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloudMicroServiceStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="microServiceComsumerFeign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="feign" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloudMicroServiceStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloudMicroServiceStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="microServiceComsumerFeign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springCloudMicroServiceStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="springCloudMicroServiceStudy" type="462c0819:PsiDirectoryNode" />
               <item name="microServiceComsumerRibbon" type="462c0819:PsiDirectoryNode" />
-              <item name="doc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springCloudMicroServiceStudy" type="b2602c69:ProjectViewProjectNode" />
@@ -345,6 +418,23 @@
               <item name="microServiceComsumerRibbon" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloudMicroServiceStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloudMicroServiceStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="microServiceComsumerRibbon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloudMicroServiceStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloudMicroServiceStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="microServiceComsumerRibbon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="comsumer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springCloudMicroServiceStudy" type="b2602c69:ProjectViewProjectNode" />
@@ -357,11 +447,6 @@
             <path>
               <item name="springCloudMicroServiceStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="springCloudMicroServiceStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="microServiceDiscoveryEureka" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springCloudMicroServiceStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springCloudMicroServiceStudy" type="462c0819:PsiDirectoryNode" />
               <item name="microServiceProviderDemo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -383,30 +468,7 @@
               <item name="microServiceProviderDemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springCloudMicroServiceStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springCloudMicroServiceStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="microServiceProviderDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="provider" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springCloudMicroServiceStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springCloudMicroServiceStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="microServiceProviderDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="provider" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springCloudMicroServiceStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -423,7 +485,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543974877470" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543994631619" />
     <property name="last_opened_file_path" value="D:/git/Git/bin/git.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -434,18 +496,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="feign" />
       <recent name="comsumer" />
       <recent name="admin" />
       <recent name="provider" />
       <recent name="learning" />
-      <recent name="io.github.CodingAndLiving.register.center.ha" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\springCloudMicroServiceStudy\microServiceComsumerFeign" />
+      <recent name="D:\springCloudMicroServiceStudy\microServiceComsumerFeign\src\main\resources" />
+      <recent name="D:\springCloudMicroServiceStudy\microServiceProviderDemo" />
       <recent name="D:\springCloudMicroServiceStudy\microServiceComsumerRibbon" />
       <recent name="D:\springCloudMicroServiceStudy\microServiceProviderDemo\src\main\resources" />
-      <recent name="D:\springCloudMicroServiceStudy\microServiceComsumerRibbon\src\main\resources" />
-      <recent name="D:\springCloudMicroServiceStudy\springBootAdminServer\src\main\resources" />
-      <recent name="D:\springCloudMicroServiceStudy\microServiceDiscoveryEurekaHA\doc" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -460,11 +522,24 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.providerDemo2">
+  <component name="RunManager" selected="Spring Boot.Application">
     <configuration name="Application " type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="microServiceDiscoveryEureka" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="io.github.CodingAndLiving.register.center.Application" />
       <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="microServiceComsumerFeign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="feign.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="feign.Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -539,7 +614,13 @@
       <item itemvalue="Spring Boot.providerDemo2" />
       <item itemvalue="Spring Boot.Consumer" />
       <item itemvalue="Spring Boot.springBootAdmin" />
+      <item itemvalue="Spring Boot.Application" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Application" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -558,12 +639,12 @@
       <workItem from="1543797879671" duration="5643000" />
       <workItem from="1543884341593" duration="9591000" />
       <workItem from="1543902297666" duration="8805000" />
-      <workItem from="1543971328483" duration="3292000" />
+      <workItem from="1543971328483" duration="7702000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51960000" />
+    <option name="totallyTimeSpent" value="56370000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -579,7 +660,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5148515" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5141643" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.83002836" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -754,13 +835,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microServiceComsumerRibbon/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springBootAdminServer/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="644">
@@ -774,28 +848,6 @@
           <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microServiceComsumerRibbon/src/main/java/comsumer/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#497#498#0" expanded="true" />
-            <element signature="e#538#539#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microServiceComsumerRibbon/src/main/java/comsumer/DemoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#405#406#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -824,24 +876,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microServiceProviderDemo/src/main/resources/application-demo1.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/microServiceProviderDemo/src/main/resources/application-demo2.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microServiceComsumerRibbon/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
@@ -859,6 +897,120 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="28">
           <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microServiceProviderDemo/doc/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microServiceComsumerRibbon/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="n#dependencies#0;n#project#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microServiceComsumerFeign/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microServiceComsumerRibbon/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microServiceComsumerRibbon/src/main/java/comsumer/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microServiceProviderDemo/src/main/resources/application-demo1.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microServiceComsumerFeign/src/main/java/feign/FeignClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microServiceComsumerRibbon/src/main/java/comsumer/DemoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microServiceComsumerFeign/src/main/java/feign/FeignConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="12" column="69" lean-forward="true" selection-start-line="12" selection-start-column="69" selection-end-line="12" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#87#88#0" expanded="true" />
+            <element signature="e#165#166#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microServiceComsumerFeign/src/main/java/feign/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microServiceComsumerFeign/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microServiceComsumerFeign/src/main/java/feign/DemoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="71" selection-start-line="14" selection-start-column="71" selection-end-line="14" selection-end-column="71" />
+          <folding>
+            <element signature="e#348#349#0" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microServiceComsumerFeign/doc/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="3" column="2" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
         </state>
       </provider>
     </entry>
