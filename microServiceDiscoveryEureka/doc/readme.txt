@@ -1,0 +1,1 @@
+1.该项目基于springCloud的eureka搭建了一个服务注册中心。

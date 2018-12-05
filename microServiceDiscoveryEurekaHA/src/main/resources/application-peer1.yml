@@ -1,0 +1,31 @@
+spring:
+  profiles: peer1
+  application:
+    name: discovery-ha
+  security:
+    user:
+      name: admin
+      password: 123456
+server:
+  port: 8761
+
+logging:
+  path: logs/log
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: ALWAYS
+
+eureka:
+  instance:
+    hostname: peer1
+    metadata-map:
+      user.name: admin
+      user.password: 123456
+  client:
+    serviceUrl:
+      defaultZone: http://admin:123456@peer2:8762/eureka/,http://admin:123567@peer3:8763/eureka/

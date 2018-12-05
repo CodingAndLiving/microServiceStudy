@@ -1,0 +1,29 @@
+server:
+  port: 8765
+spring:
+  application:
+    name: admin-server
+  security:
+    user:
+      name: admin
+      password: 123456
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: ALWAYS
+
+eureka:
+  instance:
+    metadata-map:
+      user.name: admin
+      user.password: 123456
+    health-check-url-path: /actuator/health
+    prefer-ip-address: true
+  client:
+    serviceUrl:
+      defaultZone: http://admin:123456@peer1:8761/eureka/,http://admin:123456@peer2:8762/eureka/,http://admin:123567@peer3:8763/eureka/
