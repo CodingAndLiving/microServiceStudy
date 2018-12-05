@@ -43,6 +43,18 @@
             <artifactId>ribbon-httpclient</artifactId>
         </dependency>
 
+        <!--整合hystrix-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.netflix.hystrix</groupId>
+            <artifactId>hystrix-javanica</artifactId>
+            <version>1.5.9</version>
+        </dependency>
+
+
         <!--这个依赖是作为spring boot admin 项目监听的子项目，在eureka环境下，子项目只需要
        添加该依赖即可，关于spring boot admin的项目，请查看相关module-->
         <dependency>
