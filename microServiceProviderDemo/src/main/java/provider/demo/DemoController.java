@@ -12,6 +12,7 @@ public class DemoController {
     @RequestMapping(method = RequestMethod.GET, value = "/say")
     @ResponseBody
     public String sayHello(){
+        System.out.println("hello, this is demo");
         return "hello world";
     }
 }
